@@ -1,0 +1,26 @@
+Dear Professor Kılıç,
+
+I performed a quality control (QC) analysis using Salmonella FASTQ data obtained from an Oxford Nanopore example dataset. To automate the analysis process, I built a Snakemake-based workflow and managed the working environment using Conda.
+
+In the first step, I analyzed the raw sequencing data using Python. During this process, I calculated read length, GC content, and quality scores for each read. In order to summarize the dataset more clearly, I also calculated key summary statistics such as the mean and median for all three metrics (read length, GC content, and quality score). All results were organized into a detailed Excel report that includes both summary statistics and the processed data.
+
+For the visualization step, I used two different tools to better interpret the data.
+
+Using Python, I generated histograms for read length, quality score, and GC content. I also created a scatter plot to visualize the relationship between read length and quality score.
+
+Using R, I generated density plots to examine the distribution patterns of the data. Additionally, I created boxplots and violin plots to analyze the distribution of quality scores and GC content in more detail.
+
+The main findings of the analysis are as follows:
+
+Read Count and Length: A total of 7,238 reads were analyzed. The average read length was 3,342 bp, while the N50 value was calculated as 3,612 bp. N50 represents the read length at which half of the total sequencing data is contained in reads of that length or longer, and it is commonly used to evaluate the overall structure of sequencing datasets.
+
+Quality Score: The average quality score was 33.4. Quality scores indicate the accuracy of base calling, and a Q33 score corresponds to an accuracy of approximately 99.9%.
+
+GC Content: The average GC content was calculated as 51.8%, which is consistent with the known GC composition of the Salmonella genome and indicates that the dataset is reliable.
+
+Overall, the generated plots and statistical results show that the read length and quality score distributions are balanced and that no major technical issues are present in the dataset. Based on these QC results, the data appears suitable for downstream analyses, and the next recommended step is alignment to a reference genome using a long-read aligner.
+
+
+Best regards,
+Ceylin Topkaya
+
