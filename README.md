@@ -39,7 +39,8 @@ Overall, the data shows stable read length distribution, expected GC content, an
 
 ### Visual Assessment
 
-![Python QC Plots](results/qc_plots_python.png)
+![Python QC Plots](results/qc_plots_python.png)<img width="2376" height="1619" alt="qc_plots_python" src="https://github.com/user-attachments/assets/7a6963c6-6597-43ae-b6a3-a3d2926a5fa8" />
+
 
 | Plot | Description |
 |------|-------------|
@@ -48,7 +49,8 @@ Overall, the data shows stable read length distribution, expected GC content, an
 | GC Content Distribution | Histogram with expected GC (52%) line |
 | Read Length vs Quality Score | Scatter plot showing correlation |
 
-![R QC Plots](results/qc_plots_R.png)
+![R QC Plots](results/qc_plots_R.png)<img width="2250" height="750" alt="qc_plots_R" src="https://github.com/user-attachments/assets/622cc7b9-f31c-4b9b-9392-b8da4da00b83" />
+
 
 | Plot | Description |
 |------|-------------|
@@ -56,7 +58,8 @@ Overall, the data shows stable read length distribution, expected GC content, an
 | Quality Score Distribution | Boxplot |
 | GC Content Distribution | Violin plot |
 
-![Summary Table](results/summary_table.png)
+![Summary Table](results/summary_table.png)<img width="1424" height="322" alt="summary_table" src="https://github.com/user-attachments/assets/bdb7536f-879a-4ede-baa9-ba1fa4468b26" />
+
 
 ---
 
