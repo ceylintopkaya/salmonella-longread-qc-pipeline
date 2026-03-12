@@ -10,6 +10,7 @@ dependencies:
   - numpy
   - matplotlib
   - seaborn
+  - nanoqc
   - r-base=4.4
   - r-ggplot2
   - r-gridextra
