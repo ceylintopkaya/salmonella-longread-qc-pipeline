@@ -104,6 +104,9 @@ All required dependencies are defined in the environment.yml file.
 
 ## Installation
 
+1.  **Download the Data:** Get the `salmonella.fastq.gz` file from this [Google Drive Link](https://drive.google.com/file/d/1K4bahHS-xQVv7I6yHQFA-zeI3tCS_c16/view?usp=sharing).
+2.  **Prepare the Directory:** Ensure you have a `data/` folder in the project root.
+3.  **Place the File:** Move the downloaded file into the `data/` folder and ensure it is named correctly as referenced in the pipeline.
 ```
 conda env create -f environment.yml
 conda activate bioinfo-pipeline
